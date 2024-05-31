@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>FAQ accordion</title>
+</head>
+<body>
+
+  <section class="h-[300px] max-[399px]:h-[300px] w-full bg-[url('assets/images/background-pattern-desktop.svg')] max-[399px]:bg-[url('assets/images/background-pattern-mobile.svg')]">
+
+    <div class="flex justify-center pt-[140px] max-[399px]:pt-[180px]">
+      <div class="h-auto w-[550px] max-[600px]:w-[380px] max-[399px]:w-[330px] bg-white rounded-[15px]">
+
+        <header class="flex items-center">
+          <img class="pt-[50px] pl-[60px] h-[80px] max-[399px]:pl-[30px]" src="assets/images/icon-star.svg" alt="icona-stella">
+          <h1 class="pl-[15px] pt-[45px] font-bold text-[45px] text-purple-950">FAQ</h1>
+          <span class="pl-[1px] pt-[50px] font-bold text-[40px] text-purple-950">s</span>
+        </header>
+
+        <div class="grid grid-cols-1 gap-10 p-8">
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-purple-950 max-[399px]:pl-[20px] max-[600px]:text-[15px] text-[17px]">What is Frontend Mentor, <br class="min-[400px]:hidden"> and how will it help me?</p>
+              <img class="plus ml-auto" src="assets/images/icon-plus.svg" alt="icon-plus">
+              <img class="minus ml-auto hidden" src="assets/images/icon-minus.svg" alt="icon-minus">
+            </div>
+            <p class="answer hidden text-purple-400 max-[600px]:text-[12px] pt-[10px] text-[14px]">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-purple-950 max-[399px]:pl-[20px] max-[600px]:text-[15px] text-[17px]">Is Frontend Mentor free?</p>
+              <img class="plus ml-auto" src="assets/images/icon-plus.svg" alt="icon-plus">
+              <img class="minus ml-auto hidden" src="assets/images/icon-minus.svg" alt="icon-minus">
+            </div>
+            <p class="answer hidden text-purple-400 max-[600px]:text-[12px] pt-[10px] text-[14px]">Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.</p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-purple-950 max-[399px]:pl-[20px] max-[600px]:text-[15px] text-[17px]">Can I use Frontend Mentor<br class="min-[400px]:hidden"> projects in my portfolio?</p>
+              <img class="plus ml-auto" src="assets/images/icon-plus.svg" alt="icon-plus">
+              <img class="minus ml-auto hidden" src="assets/images/icon-minus.svg" alt="icon-minus">
+            </div>
+            <p class="answer hidden text-purple-400 max-[600px]:text-[12px] pt-[10px] text-[14px]">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!</p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-purple-950 max-[399px]:pl-[20px] max-[600px]:text-[15px] text-[17px]">How can I get help if I'm<br class="min-[600px]:hidden"> stuck on a challenge?</p>
+              <img class="plus ml-auto" src="assets/images/icon-plus.svg" alt="icon-plus">
+              <img class="minus ml-auto hidden" src="assets/images/icon-minus.svg" alt="icon-minus">
+            </div>
+            <p class="answer hidden text-purple-400 max-[600px]:text-[12px] pt-[10px] text-[14px]">The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<section class="bg-pink-100 h-[800px] w-full"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
